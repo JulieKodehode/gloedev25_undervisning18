@@ -55,12 +55,9 @@ document.addEventListener("DOMContentLoaded", function () {
 //
 
 // Nested arrays in objects
-console.log("?")
 const shoppingCart = {
-    fruits: [
-        {apple: ["Red apple", "Green apple", "Yellow apple"]
-    }, 
-    "Banana", "Orange"],
+    fruits: [{apple: ["Red apple", "Green apple", "Yellow apple"]}, "Banana", "Orange"],
+    
     vegetable: ["Potato", "Carrot", "Brusselsprouts"]
 }
 console.log(shoppingCart);
