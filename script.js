@@ -62,3 +62,8 @@ const shoppingCart = {
 }
 console.log(shoppingCart);
 console.log(shoppingCart.fruits[0].apple[0]);
+
+// Nested array in array example
+const arrayTest = ["Apple", "Banana", ["Strawberry", "Blueberry"], "Orange"]
+console.log(arrayTest);
+console.log(arrayTest[2][0]);
