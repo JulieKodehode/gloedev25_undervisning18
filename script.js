@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cardTitle = document.getElementById("cardTitle");
     const cardDescription = document.getElementById("cardDescription");
     const cardImage = document.getElementById("cardImage");
-    console.log(cardName, cardTitle, cardDescription, cardImage);
+    // console.log(cardName, cardTitle, cardDescription, cardImage);
 
     const cardInformation = [
     {
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Nested arrays in objects
 const shoppingCart = {
     fruits: [{apple: ["Red apple", "Green apple", "Yellow apple"]}, "Banana", "Orange"],
-    
+
     vegetable: ["Potato", "Carrot", "Brusselsprouts"]
 }
 console.log(shoppingCart);
